@@ -1,26 +1,19 @@
 <%= form_with(model: task ) do |f| %>
-<<<<<<< HEAD
+
   <% if task.errors.any? %>
     <div id="error_explanation">
       <ul>
         <% task.errors.full_messages.each do |msg| %>
-=======
-  <% if message.errors.any? %>
-    <div id="error_explanation">
-      <ul>
-        <% message.errors.full_messages.each do |msg| %>
->>>>>>> 1d7cb25096178c91ac1e9655e91df5c88c2d9c60
           <li><%= msg %></li>
         <% end %>
       </ul>
     </div>
   <% end %>
-<<<<<<< HEAD
+
   
   <%= f.label :status, 'ステータス' %>
   <%= f.text_field :status %>
-=======
->>>>>>> 1d7cb25096178c91ac1e9655e91df5c88c2d9c60
+
 
   <%= f.label :content, 'タスク' %>
   <%= f.text_field :content %>
