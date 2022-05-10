@@ -8,7 +8,7 @@ class TasksController < ApplicationController
   end
 
   def show
-    d;ougtruhgurtepuytphit@  
+      
   end
 
   def new
